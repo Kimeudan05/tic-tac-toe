@@ -52,6 +52,19 @@ body {
   background-color: #f0f0f0;
 }
 
+/* Add styles for X and O */
+.x-value {
+  color: red;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.o-value {
+  color: blue;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
 .start-button {
   padding: 10px 20px;
   background-color: #007bff;
