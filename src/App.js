@@ -11,8 +11,7 @@ function App() {
   const winner = calculateWinner(squares);
   let status;
   if (winner) {
-    <h3>Congratulations !!!</h3>;
-    status = "Winner: " + winner;
+    status = "The Winner is: " + winner;
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
   }
